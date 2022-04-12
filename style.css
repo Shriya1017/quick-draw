@@ -1,0 +1,52 @@
+body{
+    background-color:greenyellow;
+}
+h1{
+    color:black;
+    background-color: antiquewhite;
+    
+}
+#show-sketch{
+    float:right;
+}
+#span-timer{
+    float:right;
+    font-weight: 900;
+    font-size: 25px;
+}
+#span-score{
+    float:left;
+    font-weight:900;
+    font-size: 25px;
+}
+canvas{
+   border:5px solid;
+   color:plum;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   margin-top: 30;
+   margin-left:540 ;
+   border-radius: 50px;
+}
+
+@keyframes example{
+    from{box-shadow:1px-2px 1px 50px purple ;}
+    to{box-shadow:2px-1px 1px 50px rgb(124, 131, 230)}
+    }
+
+p{
+    padding-top:10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
